@@ -1,6 +1,7 @@
 let content = document.getElementById("para").innerText;
 let btn = document.getElementById("btn")
-let found = 0;
+let conut = 0;
+
 if (content.length > 100) {
   textFun()
 
@@ -21,15 +22,14 @@ function showMore(){
 }
 
 function mainFun(){
-    if(found){
+    if(conut){
+      btn.innerHTML ="show more"
       textFun()
-      found++
+      conut++
     }
     else{
-     
+      btn.innerHTML ="show less"
         showMore()
-        found--
-        // let lessContent = content.slice(0, 100);
-        // btn.innerText ="show more "
+        conut--
     }
 }

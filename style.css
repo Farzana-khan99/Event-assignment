@@ -1,0 +1,19 @@
+p , button{
+    margin: 30px 60px;
+    font-family: sans-serif;
+}
+p {
+   line-height: 30px;
+}
+
+button{
+    padding: 10px 20px;
+    background: orange;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 600;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
