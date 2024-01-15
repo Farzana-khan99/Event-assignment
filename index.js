@@ -12,6 +12,7 @@ function textFun() {
     let lessContent = content.slice(0, 100);
     let show = (document.getElementById("para").innerText = lessContent);
     let btn = (document.getElementById("btn").style.display = "block");
+    btn.innerHTML ="show more"
   } 
 
 function showMore(){
